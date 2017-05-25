@@ -7,39 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E350B1C91DEE2A67F95A1BF4 /* Pods_UICollectionViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D3CEE5543EDC729915C538 /* Pods_UICollectionViewDemo.framework */; };
 		F0C271511ED567FF008EA125 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271501ED567FF008EA125 /* main.m */; };
 		F0C271541ED567FF008EA125 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271531ED567FF008EA125 /* AppDelegate.m */; };
 		F0C2715A1ED567FF008EA125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C271581ED567FF008EA125 /* Main.storyboard */; };
 		F0C2715C1ED567FF008EA125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0C2715B1ED567FF008EA125 /* Assets.xcassets */; };
 		F0C2715F1ED567FF008EA125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C2715D1ED567FF008EA125 /* LaunchScreen.storyboard */; };
-		F0C2716A1ED567FF008EA125 /* UICollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271691ED567FF008EA125 /* UICollectionViewDemoTests.m */; };
-		F0C271751ED567FF008EA125 /* UICollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271741ED567FF008EA125 /* UICollectionViewDemoUITests.m */; };
 		F0C271841ED5684A008EA125 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271831ED5684A008EA125 /* TableViewController.m */; };
 		F0C271881ED56A2B008EA125 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271871ED56A2B008EA125 /* TableViewCell.m */; };
 		F0C2718F1ED577AF008EA125 /* CircleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2718E1ED577AF008EA125 /* CircleCollectionViewController.m */; };
 		F0C271921ED577D8008EA125 /* CircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271911ED577D8008EA125 /* CircleLayout.m */; };
 		F0C271981ED57A3E008EA125 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271961ED57A3E008EA125 /* CollectionViewCell.m */; };
 		F0C271991ED57A3E008EA125 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C271971ED57A3E008EA125 /* CollectionViewCell.xib */; };
+		F0C271D81ED664DF008EA125 /* HorizontalScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271D21ED664DF008EA125 /* HorizontalScrollCell.m */; };
+		F0C271D91ED664DF008EA125 /* HorizontalScrollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C271D31ED664DF008EA125 /* HorizontalScrollCell.xib */; };
+		F0C271DB1ED664DF008EA125 /* HorizontalScrollLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271D71ED664DF008EA125 /* HorizontalScrollLayout.m */; };
+		F0C271F11ED668CB008EA125 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271DD1ED668CB008EA125 /* 1.gif */; };
+		F0C271F21ED668CB008EA125 /* 10.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271DE1ED668CB008EA125 /* 10.gif */; };
+		F0C271F31ED668CB008EA125 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271DF1ED668CB008EA125 /* 11.gif */; };
+		F0C271F41ED668CB008EA125 /* 12.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E01ED668CB008EA125 /* 12.gif */; };
+		F0C271F51ED668CB008EA125 /* 13.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E11ED668CB008EA125 /* 13.gif */; };
+		F0C271F61ED668CB008EA125 /* 14.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E21ED668CB008EA125 /* 14.gif */; };
+		F0C271F71ED668CB008EA125 /* 15.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E31ED668CB008EA125 /* 15.gif */; };
+		F0C271F81ED668CB008EA125 /* 16.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E41ED668CB008EA125 /* 16.gif */; };
+		F0C271F91ED668CB008EA125 /* 17.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E51ED668CB008EA125 /* 17.gif */; };
+		F0C271FA1ED668CB008EA125 /* 18.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E61ED668CB008EA125 /* 18.gif */; };
+		F0C271FB1ED668CB008EA125 /* 19.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E71ED668CB008EA125 /* 19.gif */; };
+		F0C271FC1ED668CB008EA125 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E81ED668CB008EA125 /* 2.gif */; };
+		F0C271FD1ED668CB008EA125 /* 20.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271E91ED668CB008EA125 /* 20.gif */; };
+		F0C271FE1ED668CB008EA125 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271EA1ED668CB008EA125 /* 3.gif */; };
+		F0C271FF1ED668CB008EA125 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271EB1ED668CB008EA125 /* 4.gif */; };
+		F0C272001ED668CB008EA125 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271EC1ED668CB008EA125 /* 5.gif */; };
+		F0C272011ED668CB008EA125 /* 6.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271ED1ED668CB008EA125 /* 6.gif */; };
+		F0C272021ED668CB008EA125 /* 7.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271EE1ED668CB008EA125 /* 7.gif */; };
+		F0C272031ED668CB008EA125 /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271EF1ED668CB008EA125 /* 8.gif */; };
+		F0C272041ED668CB008EA125 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271F01ED668CB008EA125 /* 9.gif */; };
+		F0C272091ED67F3A008EA125 /* HorizontalScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C272081ED67F3A008EA125 /* HorizontalScrollViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F0C271661ED567FF008EA125 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0C271441ED567FF008EA125 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0C2714B1ED567FF008EA125;
-			remoteInfo = UICollectionViewDemo;
-		};
-		F0C271711ED567FF008EA125 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0C271441ED567FF008EA125 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0C2714B1ED567FF008EA125;
-			remoteInfo = UICollectionViewDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		659B009BBE964A4518C83A9F /* Pods-UICollectionViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewDemo/Pods-UICollectionViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A887BECEAF8FBDEABEC403CA /* Pods-UICollectionViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewDemo/Pods-UICollectionViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B0D3CEE5543EDC729915C538 /* Pods_UICollectionViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UICollectionViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C2714C1ED567FF008EA125 /* UICollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C271501ED567FF008EA125 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0C271521ED567FF008EA125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,10 +57,8 @@
 		F0C2715B1ED567FF008EA125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0C2715E1ED567FF008EA125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0C271601ED567FF008EA125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0C271651ED567FF008EA125 /* UICollectionViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C271691ED567FF008EA125 /* UICollectionViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDemoTests.m; sourceTree = "<group>"; };
 		F0C2716B1ED567FF008EA125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0C271701ED567FF008EA125 /* UICollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C271741ED567FF008EA125 /* UICollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDemoUITests.m; sourceTree = "<group>"; };
 		F0C271761ED567FF008EA125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0C271821ED5684A008EA125 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
@@ -65,6 +72,33 @@
 		F0C271951ED57A3E008EA125 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		F0C271961ED57A3E008EA125 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		F0C271971ED57A3E008EA125 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		F0C271D11ED664DF008EA125 /* HorizontalScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScrollCell.h; sourceTree = "<group>"; };
+		F0C271D21ED664DF008EA125 /* HorizontalScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollCell.m; sourceTree = "<group>"; };
+		F0C271D31ED664DF008EA125 /* HorizontalScrollCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalScrollCell.xib; sourceTree = "<group>"; };
+		F0C271D61ED664DF008EA125 /* HorizontalScrollLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScrollLayout.h; sourceTree = "<group>"; };
+		F0C271D71ED664DF008EA125 /* HorizontalScrollLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollLayout.m; sourceTree = "<group>"; };
+		F0C271DD1ED668CB008EA125 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		F0C271DE1ED668CB008EA125 /* 10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 10.gif; sourceTree = "<group>"; };
+		F0C271DF1ED668CB008EA125 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
+		F0C271E01ED668CB008EA125 /* 12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12.gif; sourceTree = "<group>"; };
+		F0C271E11ED668CB008EA125 /* 13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 13.gif; sourceTree = "<group>"; };
+		F0C271E21ED668CB008EA125 /* 14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 14.gif; sourceTree = "<group>"; };
+		F0C271E31ED668CB008EA125 /* 15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 15.gif; sourceTree = "<group>"; };
+		F0C271E41ED668CB008EA125 /* 16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 16.gif; sourceTree = "<group>"; };
+		F0C271E51ED668CB008EA125 /* 17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 17.gif; sourceTree = "<group>"; };
+		F0C271E61ED668CB008EA125 /* 18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 18.gif; sourceTree = "<group>"; };
+		F0C271E71ED668CB008EA125 /* 19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 19.gif; sourceTree = "<group>"; };
+		F0C271E81ED668CB008EA125 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		F0C271E91ED668CB008EA125 /* 20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 20.gif; sourceTree = "<group>"; };
+		F0C271EA1ED668CB008EA125 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		F0C271EB1ED668CB008EA125 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		F0C271EC1ED668CB008EA125 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
+		F0C271ED1ED668CB008EA125 /* 6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6.gif; sourceTree = "<group>"; };
+		F0C271EE1ED668CB008EA125 /* 7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 7.gif; sourceTree = "<group>"; };
+		F0C271EF1ED668CB008EA125 /* 8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 8.gif; sourceTree = "<group>"; };
+		F0C271F01ED668CB008EA125 /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 9.gif; sourceTree = "<group>"; };
+		F0C272071ED67F3A008EA125 /* HorizontalScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScrollViewController.h; sourceTree = "<group>"; };
+		F0C272081ED67F3A008EA125 /* HorizontalScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,26 +106,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C271621ED567FF008EA125 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C2716D1ED567FF008EA125 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E350B1C91DEE2A67F95A1BF4 /* Pods_UICollectionViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		655DDED23357BB4ABA85B5B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0D3CEE5543EDC729915C538 /* Pods_UICollectionViewDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BFD1F348D2CAF52D545549E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				659B009BBE964A4518C83A9F /* Pods-UICollectionViewDemo.debug.xcconfig */,
+				A887BECEAF8FBDEABEC403CA /* Pods-UICollectionViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F0C271431ED567FF008EA125 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +137,8 @@
 				F0C271681ED567FF008EA125 /* UICollectionViewDemoTests */,
 				F0C271731ED567FF008EA125 /* UICollectionViewDemoUITests */,
 				F0C2714D1ED567FF008EA125 /* Products */,
+				8BFD1F348D2CAF52D545549E /* Pods */,
+				655DDED23357BB4ABA85B5B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				F0C2714C1ED567FF008EA125 /* UICollectionViewDemo.app */,
-				F0C271651ED567FF008EA125 /* UICollectionViewDemoTests.xctest */,
-				F0C271701ED567FF008EA125 /* UICollectionViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +153,7 @@
 		F0C2714E1ED567FF008EA125 /* UICollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F0C2719A1ED65CC1008EA125 /* 水平分屏滑动 */,
 				F0C2718C1ED577A1008EA125 /* 圆形布局 */,
 				F0C2718A1ED57201008EA125 /* Home */,
 				F0C271521ED567FF008EA125 /* AppDelegate.h */,
@@ -131,6 +170,7 @@
 		F0C2714F1ED567FF008EA125 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F0C271DC1ED668CB008EA125 /* Resource */,
 				F0C271501ED567FF008EA125 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -179,6 +219,47 @@
 			path = "圆形布局";
 			sourceTree = "<group>";
 		};
+		F0C2719A1ED65CC1008EA125 /* 水平分屏滑动 */ = {
+			isa = PBXGroup;
+			children = (
+				F0C271D11ED664DF008EA125 /* HorizontalScrollCell.h */,
+				F0C271D21ED664DF008EA125 /* HorizontalScrollCell.m */,
+				F0C271D31ED664DF008EA125 /* HorizontalScrollCell.xib */,
+				F0C271D61ED664DF008EA125 /* HorizontalScrollLayout.h */,
+				F0C271D71ED664DF008EA125 /* HorizontalScrollLayout.m */,
+				F0C272071ED67F3A008EA125 /* HorizontalScrollViewController.h */,
+				F0C272081ED67F3A008EA125 /* HorizontalScrollViewController.m */,
+			);
+			path = "水平分屏滑动";
+			sourceTree = "<group>";
+		};
+		F0C271DC1ED668CB008EA125 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F0C271DD1ED668CB008EA125 /* 1.gif */,
+				F0C271DE1ED668CB008EA125 /* 10.gif */,
+				F0C271DF1ED668CB008EA125 /* 11.gif */,
+				F0C271E01ED668CB008EA125 /* 12.gif */,
+				F0C271E11ED668CB008EA125 /* 13.gif */,
+				F0C271E21ED668CB008EA125 /* 14.gif */,
+				F0C271E31ED668CB008EA125 /* 15.gif */,
+				F0C271E41ED668CB008EA125 /* 16.gif */,
+				F0C271E51ED668CB008EA125 /* 17.gif */,
+				F0C271E61ED668CB008EA125 /* 18.gif */,
+				F0C271E71ED668CB008EA125 /* 19.gif */,
+				F0C271E81ED668CB008EA125 /* 2.gif */,
+				F0C271E91ED668CB008EA125 /* 20.gif */,
+				F0C271EA1ED668CB008EA125 /* 3.gif */,
+				F0C271EB1ED668CB008EA125 /* 4.gif */,
+				F0C271EC1ED668CB008EA125 /* 5.gif */,
+				F0C271ED1ED668CB008EA125 /* 6.gif */,
+				F0C271EE1ED668CB008EA125 /* 7.gif */,
+				F0C271EF1ED668CB008EA125 /* 8.gif */,
+				F0C271F01ED668CB008EA125 /* 9.gif */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F0C271791ED567FF008EA125 /* Build configuration list for PBXNativeTarget "UICollectionViewDemo" */;
 			buildPhases = (
+				C03437E66BCADA0CD222B046 /* 📦 Check Pods Manifest.lock */,
 				F0C271481ED567FF008EA125 /* Sources */,
 				F0C271491ED567FF008EA125 /* Frameworks */,
 				F0C2714A1ED567FF008EA125 /* Resources */,
+				B7E9C5E2160FA1280D4E5CDF /* 📦 Embed Pods Frameworks */,
+				B241A228BB9C1907DF749DAE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,42 +282,6 @@
 			productName = UICollectionViewDemo;
 			productReference = F0C2714C1ED567FF008EA125 /* UICollectionViewDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F0C271641ED567FF008EA125 /* UICollectionViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0C2717C1ED567FF008EA125 /* Build configuration list for PBXNativeTarget "UICollectionViewDemoTests" */;
-			buildPhases = (
-				F0C271611ED567FF008EA125 /* Sources */,
-				F0C271621ED567FF008EA125 /* Frameworks */,
-				F0C271631ED567FF008EA125 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0C271671ED567FF008EA125 /* PBXTargetDependency */,
-			);
-			name = UICollectionViewDemoTests;
-			productName = UICollectionViewDemoTests;
-			productReference = F0C271651ED567FF008EA125 /* UICollectionViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F0C2716F1ED567FF008EA125 /* UICollectionViewDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0C2717F1ED567FF008EA125 /* Build configuration list for PBXNativeTarget "UICollectionViewDemoUITests" */;
-			buildPhases = (
-				F0C2716C1ED567FF008EA125 /* Sources */,
-				F0C2716D1ED567FF008EA125 /* Frameworks */,
-				F0C2716E1ED567FF008EA125 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0C271721ED567FF008EA125 /* PBXTargetDependency */,
-			);
-			name = UICollectionViewDemoUITests;
-			productName = UICollectionViewDemoUITests;
-			productReference = F0C271701ED567FF008EA125 /* UICollectionViewDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -247,16 +295,6 @@
 					F0C2714B1ED567FF008EA125 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
-					};
-					F0C271641ED567FF008EA125 = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = F0C2714B1ED567FF008EA125;
-					};
-					F0C2716F1ED567FF008EA125 = {
-						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = F0C2714B1ED567FF008EA125;
 					};
 				};
 			};
@@ -274,8 +312,6 @@
 			projectRoot = "";
 			targets = (
 				F0C2714B1ED567FF008EA125 /* UICollectionViewDemo */,
-				F0C271641ED567FF008EA125 /* UICollectionViewDemoTests */,
-				F0C2716F1ED567FF008EA125 /* UICollectionViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,28 +321,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0C271F81ED668CB008EA125 /* 16.gif in Resources */,
+				F0C271F51ED668CB008EA125 /* 13.gif in Resources */,
+				F0C272041ED668CB008EA125 /* 9.gif in Resources */,
+				F0C271FD1ED668CB008EA125 /* 20.gif in Resources */,
+				F0C271F11ED668CB008EA125 /* 1.gif in Resources */,
+				F0C271F61ED668CB008EA125 /* 14.gif in Resources */,
+				F0C271FB1ED668CB008EA125 /* 19.gif in Resources */,
 				F0C2715F1ED567FF008EA125 /* LaunchScreen.storyboard in Resources */,
+				F0C271FA1ED668CB008EA125 /* 18.gif in Resources */,
 				F0C2715C1ED567FF008EA125 /* Assets.xcassets in Resources */,
+				F0C272031ED668CB008EA125 /* 8.gif in Resources */,
+				F0C272001ED668CB008EA125 /* 5.gif in Resources */,
+				F0C271F21ED668CB008EA125 /* 10.gif in Resources */,
+				F0C272011ED668CB008EA125 /* 6.gif in Resources */,
+				F0C271FE1ED668CB008EA125 /* 3.gif in Resources */,
+				F0C271F31ED668CB008EA125 /* 11.gif in Resources */,
+				F0C271F41ED668CB008EA125 /* 12.gif in Resources */,
+				F0C271F71ED668CB008EA125 /* 15.gif in Resources */,
+				F0C271F91ED668CB008EA125 /* 17.gif in Resources */,
+				F0C271D91ED664DF008EA125 /* HorizontalScrollCell.xib in Resources */,
 				F0C271991ED57A3E008EA125 /* CollectionViewCell.xib in Resources */,
+				F0C271FF1ED668CB008EA125 /* 4.gif in Resources */,
+				F0C271FC1ED668CB008EA125 /* 2.gif in Resources */,
 				F0C2715A1ED567FF008EA125 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C271631ED567FF008EA125 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C2716E1ED567FF008EA125 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				F0C272021ED668CB008EA125 /* 7.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B241A228BB9C1907DF749DAE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionViewDemo/Pods-UICollectionViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E9C5E2160FA1280D4E5CDF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionViewDemo/Pods-UICollectionViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03437E66BCADA0CD222B046 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F0C271481ED567FF008EA125 /* Sources */ = {
@@ -314,45 +405,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0C271541ED567FF008EA125 /* AppDelegate.m in Sources */,
+				F0C272091ED67F3A008EA125 /* HorizontalScrollViewController.m in Sources */,
 				F0C2718F1ED577AF008EA125 /* CircleCollectionViewController.m in Sources */,
+				F0C271D81ED664DF008EA125 /* HorizontalScrollCell.m in Sources */,
 				F0C271881ED56A2B008EA125 /* TableViewCell.m in Sources */,
 				F0C271511ED567FF008EA125 /* main.m in Sources */,
 				F0C271841ED5684A008EA125 /* TableViewController.m in Sources */,
 				F0C271981ED57A3E008EA125 /* CollectionViewCell.m in Sources */,
+				F0C271DB1ED664DF008EA125 /* HorizontalScrollLayout.m in Sources */,
 				F0C271921ED577D8008EA125 /* CircleLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0C271611ED567FF008EA125 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0C2716A1ED567FF008EA125 /* UICollectionViewDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0C2716C1ED567FF008EA125 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0C271751ED567FF008EA125 /* UICollectionViewDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F0C271671ED567FF008EA125 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0C2714B1ED567FF008EA125 /* UICollectionViewDemo */;
-			targetProxy = F0C271661ED567FF008EA125 /* PBXContainerItemProxy */;
-		};
-		F0C271721ED567FF008EA125 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0C2714B1ED567FF008EA125 /* UICollectionViewDemo */;
-			targetProxy = F0C271711ED567FF008EA125 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F0C271581ED567FF008EA125 /* Main.storyboard */ = {
@@ -466,8 +531,13 @@
 		};
 		F0C2717A1ED567FF008EA125 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 659B009BBE964A4518C83A9F /* Pods-UICollectionViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UICollectionViewDemo",
+				);
 				INFOPLIST_FILE = UICollectionViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sky.UICollectionViewDemo;
@@ -477,58 +547,17 @@
 		};
 		F0C2717B1ED567FF008EA125 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A887BECEAF8FBDEABEC403CA /* Pods-UICollectionViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UICollectionViewDemo",
+				);
 				INFOPLIST_FILE = UICollectionViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sky.UICollectionViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		F0C2717D1ED567FF008EA125 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = UICollectionViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sky.UICollectionViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionViewDemo.app/UICollectionViewDemo";
-			};
-			name = Debug;
-		};
-		F0C2717E1ED567FF008EA125 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = UICollectionViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sky.UICollectionViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionViewDemo.app/UICollectionViewDemo";
-			};
-			name = Release;
-		};
-		F0C271801ED567FF008EA125 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = UICollectionViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sky.UICollectionViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = UICollectionViewDemo;
-			};
-			name = Debug;
-		};
-		F0C271811ED567FF008EA125 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = UICollectionViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sky.UICollectionViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = UICollectionViewDemo;
 			};
 			name = Release;
 		};
@@ -551,22 +580,7 @@
 				F0C2717B1ED567FF008EA125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F0C2717C1ED567FF008EA125 /* Build configuration list for PBXNativeTarget "UICollectionViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0C2717D1ED567FF008EA125 /* Debug */,
-				F0C2717E1ED567FF008EA125 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F0C2717F1ED567FF008EA125 /* Build configuration list for PBXNativeTarget "UICollectionViewDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0C271801ED567FF008EA125 /* Debug */,
-				F0C271811ED567FF008EA125 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

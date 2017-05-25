@@ -1,0 +1,17 @@
+PODS:
+  - Masonry (1.0.2)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - YYImage
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: 94f535f592f307d82f360d2dc5fe48245e2c7abb
+
+COCOAPODS: 1.0.0

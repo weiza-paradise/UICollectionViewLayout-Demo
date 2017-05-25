@@ -8,7 +8,6 @@
 
 #import "TableViewController.h"
 #import "TableViewCell.h"
-#import <objc/runtime.h>
 
 
 @interface StyleModel : NSObject
@@ -77,6 +76,12 @@ static NSString *cellIdentifier = @"cellIdentifier";
         model1.class = @"CircleCollectionViewController";
         model1.title = @"圆形布局";
         [_styleList  addObject:model1];
+        
+        StyleModel *model2 = [StyleModel new];
+        model2.class = @"HorizontalScrollViewController";
+        model2.title = @"水平分屏滑动";
+        [_styleList  addObject:model2];
+        
     }
     return _styleList;
 }
