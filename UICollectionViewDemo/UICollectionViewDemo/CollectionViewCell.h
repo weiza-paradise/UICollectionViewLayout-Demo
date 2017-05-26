@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <YYImage/YYImage.h>
 
 @interface CollectionViewCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *myImageView;
+@property (weak, nonatomic) IBOutlet YYAnimatedImageView *myImageView;
 @end

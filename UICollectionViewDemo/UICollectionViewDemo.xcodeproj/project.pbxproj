@@ -43,6 +43,11 @@
 		F0C272031ED668CB008EA125 /* 8.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271EF1ED668CB008EA125 /* 8.gif */; };
 		F0C272041ED668CB008EA125 /* 9.gif in Resources */ = {isa = PBXBuildFile; fileRef = F0C271F01ED668CB008EA125 /* 9.gif */; };
 		F0C272091ED67F3A008EA125 /* HorizontalScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C272081ED67F3A008EA125 /* HorizontalScrollViewController.m */; };
+		F0C272191ED7F91E008EA125 /* TagsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C272181ED7F91E008EA125 /* TagsCollectionViewController.m */; };
+		F0C2721C1ED7F938008EA125 /* TagsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2721B1ED7F938008EA125 /* TagsLayout.m */; };
+		F0C272231ED7F965008EA125 /* TagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C272211ED7F965008EA125 /* TagsCell.m */; };
+		F0C272241ED7F965008EA125 /* TagsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C272221ED7F965008EA125 /* TagsCell.xib */; };
+		F0C272271ED7FB3A008EA125 /* TagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C272261ED7FB3A008EA125 /* TagsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +104,15 @@
 		F0C271F01ED668CB008EA125 /* 9.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 9.gif; sourceTree = "<group>"; };
 		F0C272071ED67F3A008EA125 /* HorizontalScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScrollViewController.h; sourceTree = "<group>"; };
 		F0C272081ED67F3A008EA125 /* HorizontalScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollViewController.m; sourceTree = "<group>"; };
+		F0C272171ED7F91E008EA125 /* TagsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsCollectionViewController.h; sourceTree = "<group>"; };
+		F0C272181ED7F91E008EA125 /* TagsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsCollectionViewController.m; sourceTree = "<group>"; };
+		F0C2721A1ED7F938008EA125 /* TagsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsLayout.h; sourceTree = "<group>"; };
+		F0C2721B1ED7F938008EA125 /* TagsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsLayout.m; sourceTree = "<group>"; };
+		F0C272201ED7F965008EA125 /* TagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsCell.h; sourceTree = "<group>"; };
+		F0C272211ED7F965008EA125 /* TagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsCell.m; sourceTree = "<group>"; };
+		F0C272221ED7F965008EA125 /* TagsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagsCell.xib; sourceTree = "<group>"; };
+		F0C272251ED7FB3A008EA125 /* TagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsModel.h; sourceTree = "<group>"; };
+		F0C272261ED7FB3A008EA125 /* TagsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +167,7 @@
 		F0C2714E1ED567FF008EA125 /* UICollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F0C272111ED6DCAB008EA125 /* 标签云 */,
 				F0C2719A1ED65CC1008EA125 /* 水平分屏滑动 */,
 				F0C2718C1ED577A1008EA125 /* 圆形布局 */,
 				F0C2718A1ED57201008EA125 /* Home */,
@@ -260,6 +275,22 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		F0C272111ED6DCAB008EA125 /* 标签云 */ = {
+			isa = PBXGroup;
+			children = (
+				F0C272171ED7F91E008EA125 /* TagsCollectionViewController.h */,
+				F0C272181ED7F91E008EA125 /* TagsCollectionViewController.m */,
+				F0C2721A1ED7F938008EA125 /* TagsLayout.h */,
+				F0C2721B1ED7F938008EA125 /* TagsLayout.m */,
+				F0C272201ED7F965008EA125 /* TagsCell.h */,
+				F0C272211ED7F965008EA125 /* TagsCell.m */,
+				F0C272221ED7F965008EA125 /* TagsCell.xib */,
+				F0C272251ED7FB3A008EA125 /* TagsModel.h */,
+				F0C272261ED7FB3A008EA125 /* TagsModel.m */,
+			);
+			path = "标签云";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -339,6 +370,7 @@
 				F0C271F31ED668CB008EA125 /* 11.gif in Resources */,
 				F0C271F41ED668CB008EA125 /* 12.gif in Resources */,
 				F0C271F71ED668CB008EA125 /* 15.gif in Resources */,
+				F0C272241ED7F965008EA125 /* TagsCell.xib in Resources */,
 				F0C271F91ED668CB008EA125 /* 17.gif in Resources */,
 				F0C271D91ED664DF008EA125 /* HorizontalScrollCell.xib in Resources */,
 				F0C271991ED57A3E008EA125 /* CollectionViewCell.xib in Resources */,
@@ -404,15 +436,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0C2721C1ED7F938008EA125 /* TagsLayout.m in Sources */,
 				F0C271541ED567FF008EA125 /* AppDelegate.m in Sources */,
 				F0C272091ED67F3A008EA125 /* HorizontalScrollViewController.m in Sources */,
 				F0C2718F1ED577AF008EA125 /* CircleCollectionViewController.m in Sources */,
+				F0C272231ED7F965008EA125 /* TagsCell.m in Sources */,
 				F0C271D81ED664DF008EA125 /* HorizontalScrollCell.m in Sources */,
 				F0C271881ED56A2B008EA125 /* TableViewCell.m in Sources */,
 				F0C271511ED567FF008EA125 /* main.m in Sources */,
+				F0C272271ED7FB3A008EA125 /* TagsModel.m in Sources */,
 				F0C271841ED5684A008EA125 /* TableViewController.m in Sources */,
 				F0C271981ED57A3E008EA125 /* CollectionViewCell.m in Sources */,
 				F0C271DB1ED664DF008EA125 /* HorizontalScrollLayout.m in Sources */,
+				F0C272191ED7F91E008EA125 /* TagsCollectionViewController.m in Sources */,
 				F0C271921ED577D8008EA125 /* CircleLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

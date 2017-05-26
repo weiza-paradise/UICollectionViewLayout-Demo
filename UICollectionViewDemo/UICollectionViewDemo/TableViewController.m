@@ -82,6 +82,10 @@ static NSString *cellIdentifier = @"cellIdentifier";
         model2.title = @"水平分屏滑动";
         [_styleList  addObject:model2];
         
+        StyleModel *model3 = [StyleModel new];
+        model3.class = @"TagsCollectionViewController";
+        model3.title = @"标签布局";
+        [_styleList addObject:model3];
     }
     return _styleList;
 }

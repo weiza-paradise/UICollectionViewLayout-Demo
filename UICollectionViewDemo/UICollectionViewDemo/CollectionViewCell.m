@@ -14,8 +14,9 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    _myImageView.backgroundColor = RANDOMCOLOR;
-    // Initialization code
+    int x = arc4random() % 20 + 1;
+    YYImage * image = [YYImage imageNamed:[NSString stringWithFormat:@"%d.gif",x]];
+    _myImageView.image = image;
 }
 
 @end

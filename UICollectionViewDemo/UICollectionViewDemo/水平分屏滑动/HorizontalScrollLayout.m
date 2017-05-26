@@ -87,8 +87,6 @@ UIKIT_EXTERN NSUInteger numberOfPages(NSUInteger itemsInPage, NSUInteger totalCo
     CGFloat point_x = self.collectionView.bounds.size.width * curPage + self.pageInset.left + curColumn * self.itemSize.width + curColumn * self.minimumLineSpacing;
     CGFloat point_y = self.pageInset.top + curRow * self.itemSize.height + curRow * self.minimumInteritemSpacing;
     attributes.frame = CGRectMake(point_x,  point_y, rect.size.width, rect.size.height);
-    return attributes;
-
     
     return attributes;
 }
