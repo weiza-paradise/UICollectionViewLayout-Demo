@@ -86,6 +86,12 @@ static NSString *cellIdentifier = @"cellIdentifier";
         model3.class = @"TagsCollectionViewController";
         model3.title = @"标签布局";
         [_styleList addObject:model3];
+        
+        StyleModel *model4 = [StyleModel new];
+        model4.class = @"CardCollectionViewController";
+        model4.title = @"卡片吸顶布局";
+        [_styleList addObject:model4];
+
     }
     return _styleList;
 }

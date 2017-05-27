@@ -48,6 +48,10 @@
 		F0C272231ED7F965008EA125 /* TagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C272211ED7F965008EA125 /* TagsCell.m */; };
 		F0C272241ED7F965008EA125 /* TagsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C272221ED7F965008EA125 /* TagsCell.xib */; };
 		F0C272271ED7FB3A008EA125 /* TagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C272261ED7FB3A008EA125 /* TagsModel.m */; };
+		F0C272301ED87610008EA125 /* CardCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C2722F1ED87610008EA125 /* CardCollectionViewController.m */; };
+		F0C272341ED876E8008EA125 /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C272321ED876E8008EA125 /* CardCollectionViewCell.m */; };
+		F0C272351ED876E8008EA125 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C272331ED876E8008EA125 /* CardCollectionViewCell.xib */; };
+		F0C272381ED87965008EA125 /* CardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C272371ED87965008EA125 /* CardLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +117,14 @@
 		F0C272221ED7F965008EA125 /* TagsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagsCell.xib; sourceTree = "<group>"; };
 		F0C272251ED7FB3A008EA125 /* TagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsModel.h; sourceTree = "<group>"; };
 		F0C272261ED7FB3A008EA125 /* TagsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsModel.m; sourceTree = "<group>"; };
+		F0C2722E1ED87610008EA125 /* CardCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewController.h; sourceTree = "<group>"; };
+		F0C2722F1ED87610008EA125 /* CardCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewController.m; sourceTree = "<group>"; };
+		F0C272311ED876E8008EA125 /* CardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewCell.h; sourceTree = "<group>"; };
+		F0C272321ED876E8008EA125 /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewCell.m; sourceTree = "<group>"; };
+		F0C272331ED876E8008EA125 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		F0C272361ED87965008EA125 /* CardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardLayout.h; sourceTree = "<group>"; };
+		F0C272371ED87965008EA125 /* CardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardLayout.m; sourceTree = "<group>"; };
+		F0C272391ED879EA008EA125 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +179,7 @@
 		F0C2714E1ED567FF008EA125 /* UICollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F0C2722D1ED875E9008EA125 /* 卡片吸顶布局 */,
 				F0C272111ED6DCAB008EA125 /* 标签云 */,
 				F0C2719A1ED65CC1008EA125 /* 水平分屏滑动 */,
 				F0C2718C1ED577A1008EA125 /* 圆形布局 */,
@@ -212,6 +225,7 @@
 		F0C2718A1ED57201008EA125 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F0C272391ED879EA008EA125 /* CommonMacro.h */,
 				F0C271861ED56A2B008EA125 /* TableViewCell.h */,
 				F0C271871ED56A2B008EA125 /* TableViewCell.m */,
 				F0C271821ED5684A008EA125 /* TableViewController.h */,
@@ -291,6 +305,20 @@
 			path = "标签云";
 			sourceTree = "<group>";
 		};
+		F0C2722D1ED875E9008EA125 /* 卡片吸顶布局 */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2722E1ED87610008EA125 /* CardCollectionViewController.h */,
+				F0C2722F1ED87610008EA125 /* CardCollectionViewController.m */,
+				F0C272311ED876E8008EA125 /* CardCollectionViewCell.h */,
+				F0C272321ED876E8008EA125 /* CardCollectionViewCell.m */,
+				F0C272331ED876E8008EA125 /* CardCollectionViewCell.xib */,
+				F0C272361ED87965008EA125 /* CardLayout.h */,
+				F0C272371ED87965008EA125 /* CardLayout.m */,
+			);
+			path = "卡片吸顶布局";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0C271F81ED668CB008EA125 /* 16.gif in Resources */,
+				F0C272351ED876E8008EA125 /* CardCollectionViewCell.xib in Resources */,
 				F0C271F51ED668CB008EA125 /* 13.gif in Resources */,
 				F0C272041ED668CB008EA125 /* 9.gif in Resources */,
 				F0C271FD1ED668CB008EA125 /* 20.gif in Resources */,
@@ -440,12 +469,15 @@
 				F0C271541ED567FF008EA125 /* AppDelegate.m in Sources */,
 				F0C272091ED67F3A008EA125 /* HorizontalScrollViewController.m in Sources */,
 				F0C2718F1ED577AF008EA125 /* CircleCollectionViewController.m in Sources */,
+				F0C272341ED876E8008EA125 /* CardCollectionViewCell.m in Sources */,
+				F0C272381ED87965008EA125 /* CardLayout.m in Sources */,
 				F0C272231ED7F965008EA125 /* TagsCell.m in Sources */,
 				F0C271D81ED664DF008EA125 /* HorizontalScrollCell.m in Sources */,
 				F0C271881ED56A2B008EA125 /* TableViewCell.m in Sources */,
 				F0C271511ED567FF008EA125 /* main.m in Sources */,
 				F0C272271ED7FB3A008EA125 /* TagsModel.m in Sources */,
 				F0C271841ED5684A008EA125 /* TableViewController.m in Sources */,
+				F0C272301ED87610008EA125 /* CardCollectionViewController.m in Sources */,
 				F0C271981ED57A3E008EA125 /* CollectionViewCell.m in Sources */,
 				F0C271DB1ED664DF008EA125 /* HorizontalScrollLayout.m in Sources */,
 				F0C272191ED7F91E008EA125 /* TagsCollectionViewController.m in Sources */,
