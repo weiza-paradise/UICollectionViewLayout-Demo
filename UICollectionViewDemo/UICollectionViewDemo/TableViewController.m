@@ -71,6 +71,7 @@ static NSString *cellIdentifier = @"cellIdentifier";
 - (NSMutableArray*)styleList
 {
     if (!_styleList) {
+        
         _styleList = [[NSMutableArray alloc]init];
         StyleModel *model1 = [StyleModel new];
         model1.class = @"CircleCollectionViewController";
