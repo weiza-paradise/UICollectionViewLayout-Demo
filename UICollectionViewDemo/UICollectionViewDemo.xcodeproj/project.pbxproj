@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6E904A21EDE8E5800B11F77 /* SuspensionCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E9049C1EDE8E5800B11F77 /* SuspensionCollectionViewController.m */; };
+		B6E904A31EDE8E5800B11F77 /* SuspensionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E9049E1EDE8E5800B11F77 /* SuspensionLayout.m */; };
+		B6E904A41EDE8E5800B11F77 /* SuspensionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E904A01EDE8E5800B11F77 /* SuspensionReusableView.m */; };
+		B6E904A51EDE8E5800B11F77 /* SuspensionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6E904A11EDE8E5800B11F77 /* SuspensionReusableView.xib */; };
 		E350B1C91DEE2A67F95A1BF4 /* Pods_UICollectionViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D3CEE5543EDC729915C538 /* Pods_UICollectionViewDemo.framework */; };
 		F0C271511ED567FF008EA125 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271501ED567FF008EA125 /* main.m */; };
 		F0C271541ED567FF008EA125 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C271531ED567FF008EA125 /* AppDelegate.m */; };
@@ -58,6 +62,13 @@
 		659B009BBE964A4518C83A9F /* Pods-UICollectionViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewDemo/Pods-UICollectionViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A887BECEAF8FBDEABEC403CA /* Pods-UICollectionViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewDemo/Pods-UICollectionViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B0D3CEE5543EDC729915C538 /* Pods_UICollectionViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UICollectionViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E9049B1EDE8E5800B11F77 /* SuspensionCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspensionCollectionViewController.h; sourceTree = "<group>"; };
+		B6E9049C1EDE8E5800B11F77 /* SuspensionCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspensionCollectionViewController.m; sourceTree = "<group>"; };
+		B6E9049D1EDE8E5800B11F77 /* SuspensionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspensionLayout.h; sourceTree = "<group>"; };
+		B6E9049E1EDE8E5800B11F77 /* SuspensionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspensionLayout.m; sourceTree = "<group>"; };
+		B6E9049F1EDE8E5800B11F77 /* SuspensionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuspensionReusableView.h; sourceTree = "<group>"; };
+		B6E904A01EDE8E5800B11F77 /* SuspensionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuspensionReusableView.m; sourceTree = "<group>"; };
+		B6E904A11EDE8E5800B11F77 /* SuspensionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuspensionReusableView.xib; sourceTree = "<group>"; };
 		F0C2714C1ED567FF008EA125 /* UICollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C271501ED567FF008EA125 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0C271521ED567FF008EA125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,6 +167,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B6E9049A1EDE8E5800B11F77 /* Header悬浮效果 */ = {
+			isa = PBXGroup;
+			children = (
+				B6E9049B1EDE8E5800B11F77 /* SuspensionCollectionViewController.h */,
+				B6E9049C1EDE8E5800B11F77 /* SuspensionCollectionViewController.m */,
+				B6E9049D1EDE8E5800B11F77 /* SuspensionLayout.h */,
+				B6E9049E1EDE8E5800B11F77 /* SuspensionLayout.m */,
+				B6E9049F1EDE8E5800B11F77 /* SuspensionReusableView.h */,
+				B6E904A01EDE8E5800B11F77 /* SuspensionReusableView.m */,
+				B6E904A11EDE8E5800B11F77 /* SuspensionReusableView.xib */,
+			);
+			path = "Header悬浮效果";
+			sourceTree = "<group>";
+		};
 		F0C271431ED567FF008EA125 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +204,7 @@
 		F0C2714E1ED567FF008EA125 /* UICollectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B6E9049A1EDE8E5800B11F77 /* Header悬浮效果 */,
 				F0C2722D1ED875E9008EA125 /* 卡片吸顶布局 */,
 				F0C272111ED6DCAB008EA125 /* 标签云 */,
 				F0C2719A1ED65CC1008EA125 /* 水平分屏滑动 */,
@@ -388,6 +414,7 @@
 				F0C271F11ED668CB008EA125 /* 1.gif in Resources */,
 				F0C271F61ED668CB008EA125 /* 14.gif in Resources */,
 				F0C271FB1ED668CB008EA125 /* 19.gif in Resources */,
+				B6E904A51EDE8E5800B11F77 /* SuspensionReusableView.xib in Resources */,
 				F0C2715F1ED567FF008EA125 /* LaunchScreen.storyboard in Resources */,
 				F0C271FA1ED668CB008EA125 /* 18.gif in Resources */,
 				F0C2715C1ED567FF008EA125 /* Assets.xcassets in Resources */,
@@ -469,11 +496,14 @@
 				F0C271541ED567FF008EA125 /* AppDelegate.m in Sources */,
 				F0C272091ED67F3A008EA125 /* HorizontalScrollViewController.m in Sources */,
 				F0C2718F1ED577AF008EA125 /* CircleCollectionViewController.m in Sources */,
+				B6E904A41EDE8E5800B11F77 /* SuspensionReusableView.m in Sources */,
 				F0C272341ED876E8008EA125 /* CardCollectionViewCell.m in Sources */,
 				F0C272381ED87965008EA125 /* CardLayout.m in Sources */,
 				F0C272231ED7F965008EA125 /* TagsCell.m in Sources */,
 				F0C271D81ED664DF008EA125 /* HorizontalScrollCell.m in Sources */,
 				F0C271881ED56A2B008EA125 /* TableViewCell.m in Sources */,
+				B6E904A31EDE8E5800B11F77 /* SuspensionLayout.m in Sources */,
+				B6E904A21EDE8E5800B11F77 /* SuspensionCollectionViewController.m in Sources */,
 				F0C271511ED567FF008EA125 /* main.m in Sources */,
 				F0C272271ED7FB3A008EA125 /* TagsModel.m in Sources */,
 				F0C271841ED5684A008EA125 /* TableViewController.m in Sources */,

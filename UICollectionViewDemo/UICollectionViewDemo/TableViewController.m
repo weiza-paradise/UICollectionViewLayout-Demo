@@ -93,6 +93,11 @@ static NSString *cellIdentifier = @"cellIdentifier";
         model4.title = @"卡片吸顶布局";
         [_styleList addObject:model4];
 
+        StyleModel *model5 = [StyleModel new];
+        model5.class = @"SuspensionCollectionViewController";
+        model5.title = @"Header悬浮效果";
+        [_styleList addObject:model5];
+
     }
     return _styleList;
 }
