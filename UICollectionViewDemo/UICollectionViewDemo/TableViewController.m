@@ -71,35 +71,24 @@ static NSString *cellIdentifier = @"cellIdentifier";
 - (NSMutableArray*)styleList
 {
     if (!_styleList) {
+        _styleList = [NSMutableArray array];
         
-        _styleList = [[NSMutableArray alloc]init];
-        StyleModel *model1 = [StyleModel new];
-        model1.class = @"CircleCollectionViewController";
-        model1.title = @"圆形布局";
-        [_styleList  addObject:model1];
-        
-        StyleModel *model2 = [StyleModel new];
-        model2.class = @"HorizontalScrollViewController";
-        model2.title = @"水平分屏滑动";
-        [_styleList  addObject:model2];
-        
-        StyleModel *model3 = [StyleModel new];
-        model3.class = @"TagsCollectionViewController";
-        model3.title = @"标签布局";
-        [_styleList addObject:model3];
-        
-        StyleModel *model4 = [StyleModel new];
-        model4.class = @"CardCollectionViewController";
-        model4.title = @"卡片吸顶布局";
-        [_styleList addObject:model4];
-
-        StyleModel *model5 = [StyleModel new];
-        model5.class = @"SuspensionCollectionViewController";
-        model5.title = @"Header悬浮效果";
-        [_styleList addObject:model5];
-
+        [_styleList addObject:[self getStyleModelWithClassName:@"CircleCollectionViewController" title:@"圆形布局"]];
+        [_styleList addObject:[self getStyleModelWithClassName:@"HorizontalScrollViewController" title:@"水平分屏滑动"]];
+        [_styleList addObject:[self getStyleModelWithClassName:@"TagsCollectionViewController" title:@"标签布局"]];
+        [_styleList addObject:[self getStyleModelWithClassName:@"CardCollectionViewController" title:@"卡片吸顶布局"]];
+        [_styleList addObject:[self getStyleModelWithClassName:@"SuspensionCollectionViewController" title:@"Header悬浮效果"]];
+        [_styleList addObject:[self getStyleModelWithClassName:@"RadioCollectionView" title:@"单选,多选"]];
     }
     return _styleList;
+}
+
+- (StyleModel *)getStyleModelWithClassName:(NSString *)className title:(NSString*)title
+{
+    StyleModel *model = [StyleModel new];
+    model.class = className;
+    model.title = title;
+    return model;
 }
 
 @end

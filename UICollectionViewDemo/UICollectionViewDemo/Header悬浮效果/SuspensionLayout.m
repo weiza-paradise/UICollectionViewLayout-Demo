@@ -46,7 +46,6 @@
             [noneHeaderSections removeIndex:attributes.indexPath.section];
         }
     }
-
     
     //遍历当前屏幕中没有header的section数组
     [noneHeaderSections enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop){
