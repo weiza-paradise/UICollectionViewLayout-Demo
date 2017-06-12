@@ -15,7 +15,7 @@
     CGFloat nextOffset;//下一个item的x
 
 }
-@property (nonatomic, strong) NSMutableArray *itemAttributes;
+@property (nonatomic, strong) NSMutableArray  *itemAttributes;
 @property (nonatomic, assign) CGFloat contentHeight;
 /* item个数 */
 @property (nonatomic, assign) NSInteger cellCount;
